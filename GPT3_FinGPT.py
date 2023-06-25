@@ -6,7 +6,7 @@ import streamlit as st
 from langchain.llms import OpenAI
 
 #api keys
-api_key = "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"
+api_key = "sk-xxxxxxxxxxxxxxxxxxx"
 os.environ['OPENAI_API_KEY'] = api_key
 
 # Llms
