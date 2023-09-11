@@ -18,5 +18,5 @@ Performance of LLM fed on financial data.
 ![image](https://github.com/samkamau81/FinGPT_/assets/63351043/0e19a88c-acc5-4658-9dc4-e099d39dd358) 
 Performance of LLM fed on General data.
 ------------------
-![image](https://github.com/samkamau81/FinGPT_/assets/63351043/66d78cc6-d940-442c-baa9-763c5381b844)
+
 -----------------
