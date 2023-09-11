@@ -92,7 +92,7 @@ st.markdown("<h1 style='text-align:justified;font-family:Georgia'>🤑Chatbot</h
 
 if "messages" not in st.session_state:
     st.session_state.messages = []
-    st.session_state.messages.append({"role": "🤑", "content": "Hey there, I'm your MoneyMentor , here to advise you on kickstart \n\
+    st.session_state.messages.append({"role": "🤑", "content": "Hey there, I'm your MoneyMentor , here to advise you on how to kickstart \n\
                                       your Business. Ask literally anything but before that, enter your API Key on the side bar"})
 # Display chat messages from history on app rerun
 for message in st.session_state.messages:
