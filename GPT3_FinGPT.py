@@ -73,8 +73,7 @@ def generate_report(Company_name,country, report_date, Funding_text_summary=None
     doc.add_heading('Legal Strategies')
     doc.add_paragraph(Legal_text_summary)
     doc.save('Financial Report.docx')
-    st.markdown(doc, unsafe_allow_html=True) 
-    return st.info('Report Generated')
+    return doc
 
 def generate_response(input_text):
     llm = OpenAI(temperature=0.3, openai_api_key=openai_api_key)
