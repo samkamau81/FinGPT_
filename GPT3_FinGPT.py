@@ -5,6 +5,7 @@ from langchain.llms import OpenAI
 import docx
 import datetime
 import time
+import os
 
 
 #Front-End
@@ -73,10 +74,12 @@ def generate_report(Company_name,country, report_date, Funding_text_summary=None
     doc.add_heading('Legal Strategies')
     doc.add_paragraph(Legal_text_summary)
     doc.save('Financial Report.docx')
+    file_path = os.path.join(os.getcwd(), 'Financial Report.docx')
+
     # Create a download button
     if st.button('Download Word Document'):
         # Provide a download link for the created Word document
-        with open('Financial Report.docx', 'rb') as docx_file:
+        with open(file_path, 'rb') as docx_file:
             st.download_button(
                 label='Click here to download the Word document',
                 data=docx_file,
