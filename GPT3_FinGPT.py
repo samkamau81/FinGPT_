@@ -73,7 +73,15 @@ def generate_report(Company_name,country, report_date, Funding_text_summary=None
     doc.add_heading('Legal Strategies')
     doc.add_paragraph(Legal_text_summary)
     doc.save('Financial Report.docx')
-    return doc
+    # Create a download button
+    if st.button('Download Word Document'):
+        # Provide a download link for the created Word document
+        with open('Financial Report.docx', 'rb') as docx_file:
+            st.download_button(
+                label='Click here to download the Word document',
+                data=docx_file,
+                key='word_document'
+            )
 
 def generate_response(input_text):
     llm = OpenAI(temperature=0.3, openai_api_key=openai_api_key)
