@@ -5,7 +5,7 @@ from langchain.llms import OpenAI
 import docx
 import datetime
 import time
-import os
+import base64
 
 
 #Front-End
@@ -74,17 +74,11 @@ def generate_report(Company_name,country, report_date, Funding_text_summary=None
     doc.add_heading('Legal Strategies')
     doc.add_paragraph(Legal_text_summary)
     doc.save('Financial Report.docx')
-    file_path = os.path.join(os.getcwd(), 'Financial Report.docx')
+    data = open('Financial Report.docx', "rb").read()
+    encoded = base64.b64encode(data)
+    decoded = base64.b64decode(encoded)
 
-    # Create a download button
-    if st.button('Download Word Document'):
-        # Provide a download link for the created Word document
-        with open(file_path, 'rb') as docx_file:
-            st.download_button(
-                label='Click here to download the Word document',
-                data=docx_file,
-                key='word_document'
-            )
+    st.download_button('Download Here', decoded, "Financial Report.docx")
 
 def generate_response(input_text):
     llm = OpenAI(temperature=0.3, openai_api_key=openai_api_key)
