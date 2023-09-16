@@ -15,16 +15,15 @@ However, it is important to note that while BloombergGPT offers tremendous poten
 -------------------
 ![image](https://github.com/samkamau81/FinGPT_/assets/63351043/9f318674-6bc7-4dcd-be1d-8559c3776e1a)
 Performance of LLM fed on financial data.
+-------------------
+![image](https://github.com/samkamau81/FinGPT_/assets/63351043/0e19a88c-acc5-4658-9dc4-e099d39dd358) 
+Performance of LLM fed on General data.
+------------------
+
 # MoneyMentor Streamlit App
 ![money mentor chatbot](https://github.com/samkamau81/FinGPT_/assets/63351043/2193b782-8607-4ca1-9b14-924667bcf289)
 ![financial report generator](https://github.com/samkamau81/FinGPT_/assets/63351043/9cfbcb42-a0ea-4ae8-8d26-6733835b4b51)
 ![generated report](https://github.com/samkamau81/FinGPT_/assets/63351043/c79f75cc-2228-46fe-88cf-08cfa793bff9)
 
-
-
--------------------
-![image](https://github.com/samkamau81/FinGPT_/assets/63351043/0e19a88c-acc5-4658-9dc4-e099d39dd358) 
-Performance of LLM fed on General data.
-------------------
 
 -----------------
