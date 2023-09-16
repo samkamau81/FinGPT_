@@ -11,13 +11,14 @@ Furthermore, BloombergGPT can generate content at scale, significantly reducing 
 The benefits of BloombergGPT extend beyond financial journalism. Startups in the fintech sector can leverage the capabilities of BloombergGPT to enhance their offerings. The language model can be used to develop intelligent chatbots, virtual assistants, and personalized financial recommendation systems. By integrating BloombergGPT into their platforms, startups can provide their users with real-time financial insights, personalized investment advice, and automated portfolio management.
 
 However, it is important to note that while BloombergGPT offers tremendous potential, it is not without limitations. Like other language models, it may occasionally generate inaccurate or biased information, as it learns from the vast corpus of data available on the internet, which may contain inherent biases. Careful validation and review of the generated content are necessary to ensure its reliability and accuracy.
+
 -------------------
 ![image](https://github.com/samkamau81/FinGPT_/assets/63351043/9f318674-6bc7-4dcd-be1d-8559c3776e1a)
 Performance of LLM fed on financial data.
 # MoneyMentor Streamlit App
+![money mentor chatbot](https://github.com/samkamau81/FinGPT_/assets/63351043/2193b782-8607-4ca1-9b14-924667bcf289)
 ![financial report generator](https://github.com/samkamau81/FinGPT_/assets/63351043/9cfbcb42-a0ea-4ae8-8d26-6733835b4b51)
 ![generated report](https://github.com/samkamau81/FinGPT_/assets/63351043/c79f75cc-2228-46fe-88cf-08cfa793bff9)
-![money mentor chatbot](https://github.com/samkamau81/FinGPT_/assets/63351043/2193b782-8607-4ca1-9b14-924667bcf289)
 
 
 
