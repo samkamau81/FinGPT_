@@ -27,6 +27,7 @@ link: https://moneymentor.streamlit.app/
 - Streamlit
 - Langchain
 - Weaviate
+- Fast API
 
 ![money mentor chatbot](https://github.com/samkamau81/FinGPT_/assets/63351043/2193b782-8607-4ca1-9b14-924667bcf289)
 ![financial report generator](https://github.com/samkamau81/FinGPT_/assets/63351043/9cfbcb42-a0ea-4ae8-8d26-6733835b4b51)
